@@ -1,4 +1,4 @@
-package lsp;
+package solid.lsp;
 
 interface Pokemon {
     void attack();

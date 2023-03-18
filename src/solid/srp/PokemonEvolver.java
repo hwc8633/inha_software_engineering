@@ -1,4 +1,4 @@
-package srp;
+package solid.srp;
 
 public class PokemonEvolver {
     public void evolve(Pokemon pokemon) {

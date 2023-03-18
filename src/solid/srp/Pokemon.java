@@ -1,14 +1,14 @@
-package ocp;
+package solid.srp;
 
-public abstract class Pokemon {
+public class Pokemon {
     private String name;
-    protected int level;
-    protected int hp;
+    private int level;
+    private int hp;
 
-    public Pokemon(String name, int level, int hp) {
+    public Pokemon(String name, int level) {
         this.name = name;
         this.level = level;
-        this.hp = hp;
+        this.hp = 100;
     }
 
     public String getName() {
@@ -35,8 +35,12 @@ public abstract class Pokemon {
         this.hp = hp;
     }
 
-    // 추상 메소드
-    public abstract void attack();
-
-    public abstract void evolve();
+//    public void attack(String opponent) {
+//        System.out.println(opponent + "를(을) 기본 공격합니!");
+//    }
+//
+//    public void evolve() {
+//        level++;
+//        System.out.println("Level UP!");
+//    }
 }

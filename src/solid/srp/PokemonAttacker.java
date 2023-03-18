@@ -1,4 +1,4 @@
-package srp;
+package solid.srp;
 
 public class PokemonAttacker {
     public void attack(String opponent){

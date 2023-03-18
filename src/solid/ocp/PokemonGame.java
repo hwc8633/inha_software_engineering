@@ -1,4 +1,4 @@
-package ocp;
+package solid.ocp;
 
 public class PokemonGame {
     public static void main(String[] args) {

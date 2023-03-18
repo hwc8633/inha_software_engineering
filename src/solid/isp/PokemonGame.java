@@ -1,4 +1,4 @@
-package isp;
+package solid.isp;
 
 public class PokemonGame {
     public static void main(String[] args) {

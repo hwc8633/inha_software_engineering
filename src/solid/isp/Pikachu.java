@@ -1,4 +1,4 @@
-package isp;
+package solid.isp;
 
 public class Pikachu implements AttackablePokemon {
     @Override
