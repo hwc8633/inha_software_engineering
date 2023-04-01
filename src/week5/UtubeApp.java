@@ -10,5 +10,7 @@ public class UtubeApp {
         landCh.setPrice(290000000);
         landCh.removeSubscriber(ks2);
         landCh.setPrice(280000000);
+        EnglishSubscriber es1 = new EnglishSubscriber("David", landCh);
+        landCh.setPrice(1000);
     }
 }
