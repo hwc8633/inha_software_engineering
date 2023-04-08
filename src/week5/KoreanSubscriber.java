@@ -3,7 +3,7 @@ package week5;
 public class KoreanSubscriber implements Subscriber {
     private String name;
     private int value;
-    private LandCh landCh;  // has - a
+    private Subject landCh;  // has - a
 
     public KoreanSubscriber(String name, LandCh landCh) {
         this.name = name;
